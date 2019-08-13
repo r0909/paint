@@ -1,0 +1,114 @@
+
+ul,ol{list-style: none;}
+*{margin:0;padding:0;}
+.icon {
+  width: 1em; height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+#xxx{
+    background: #F5F5F5 url(./wall.jpg) no-repeat center center;
+    background-size: cover;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+body{
+  overflow: hidden;
+}
+
+.actions{
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+}
+.actions svg{
+  width: 2em;
+  height: 2em;
+  transition: all 0.3s;
+  margin: 0 10px;
+}
+.actions svg.active{
+  fill: red;
+  transform: scale(1.2);
+}
+.colors{
+  position: fixed;
+  top: 60px;
+  left: 28px;
+}
+.colors> li{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 3px rgba(0,0,0,0.25);
+  margin: 10px 0;
+  transition: all 0.3s;
+}
+.colors> li.red{
+  background: red;
+}
+.colors> li.green{
+  background: green;
+}
+.colors> li.blue{
+  background: blue;
+}
+.colors> li.yellow{
+    background: yellow;
+  }
+  .colors> li.orange{
+    background: orange;
+  }
+  .colors> li.purple{
+    background: purple;
+  }
+  .colors> li.pink{
+    background: pink;
+  }
+  .colors> li.black{
+    background: black;
+  }
+  .colors> li.grey{
+    background: grey;
+  }
+  .colors> li.white{
+    background: white;
+    box-sizing: border-box;
+    border: 1px solid #000;
+  }
+.colors> li.active{
+  box-shadow: 0 0 3px rgba(0,0,0,0.95);
+  transform: scale(1.2);
+}
+.sizes {
+  position: fixed;
+  right: 20px;
+  top: 10px;
+}
+.sizes > li {
+    text-align: left;
+    margin: 10px 5px 0 0;
+}
+.sizes > .thin{
+  height: 4px;
+  width: 60px;
+  background: #000;
+  
+}
+.sizes > .medium{
+    height: 6px;
+    width: 60px;
+    background: #000;
+   
+  }
+.sizes > .thick{
+  height: 8px;
+  width: 60px;
+  background: #000;
+ 
+}
